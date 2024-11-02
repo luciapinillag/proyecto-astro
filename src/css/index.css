@@ -1,0 +1,49 @@
+
+@font-face{
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Italic-VariableFont_wght.ttf");
+    src:url("/fonts/Montserrat-VariableFont_wght.ttf");
+    font-display: swap;
+}
+:root{
+--dark-color: #191F1A;
+--light-color: #29332B ;
+--medium-color: #94B699;
+--highlight-color: #F6DB9B;
+
+}
+body{
+    background: var(--dark-color);
+    font-family: "Montserrat";
+   
+    
+}
+.text{
+    color: white;
+    font-size: 5rem;
+   
+
+}
+.wrapper{
+    max-width: 1024px;
+    margin: auto;
+
+}
+[data-icon]{
+    font-size: 6rem;
+    color: rgb(231, 213, 108);
+    border-radius: 50px;
+}
+
+nav{
+    display: flex;
+   align-items: center;
+   margin-right: 20px;
+   gap: 20px;
+   font-size: 30px;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+}   
